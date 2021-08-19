@@ -1,4 +1,6 @@
 --* Creating and using our database
+-- Do the thing, if the database exists. Else dont do it
+DROP DATABASE if exists pizzeria; 
 CREATE DATABASE pizzeria;
 USE pizzeria; 
 
