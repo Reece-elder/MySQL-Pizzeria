@@ -1,10 +1,10 @@
---* Creating and using our database
+-- Creating and using our database
 -- Do the thing, if the database exists. Else dont do it
 DROP DATABASE if exists pizzeria; 
 CREATE DATABASE pizzeria;
 USE pizzeria; 
 
---? We need to create our tables
+-- We need to create our tables
 -- pizza_id
 -- type
 -- price (decimal)
